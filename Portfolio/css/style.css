@@ -1,0 +1,72 @@
+body{
+    background-image: url("http://i.imgur.com/8uNIPuK.jpg");
+    background-color: #212540;
+}
+
+#container{
+    padding: 0 10px 0 10px;
+    width:730px;
+    height: 2500px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.3);
+}
+h1{
+    text-shadow:  0 8px black;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 36pt;
+}
+a{
+    text-decoration: none;
+    color: orangered;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 140%;
+}
+.prvi{
+    position: fixed;
+    width: 150px;
+}
+.prvi p{
+    padding-right: 10px;
+    font-size: 23px;
+    color: white;
+    font-weight: normal;
+}
+.prvi p:hover{
+   border-right:3px solid #fc6145;
+    color: #fc6145;
+    font-weight: bold;
+ }
+
+.drugi{
+    position: relative;
+    margin-left: 20px;
+    font-family: sans-serif;
+    width: 550px;
+    height: auto;
+    left: 160px;
+    float: left;
+    color: white;
+}
+.drugi p{
+    font-size: 18px;
+}
+.bitno{
+    color: #fc6145;
+}
+.galerija{
+    height: 600px;
+    background-color: #212520;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+.sadrzaj{
+    background-color: rgba(0,0,0,1);
+}
