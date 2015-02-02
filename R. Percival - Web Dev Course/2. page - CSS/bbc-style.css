@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvectica, sans-serif;
+}
+#topbar{
+    background-color: #7A0000;
+    width: 100%;
+    height: 42px;
+    color: #ffffff;
+}
+.fixedwidth{
+    width: 1050px;
+    margin: 0 auto;
+}
+#logodiv{
+    float: left;
+    border-right: 1px solid #aa0000;
+    padding: 4px 10px 0 0;
+
+}
+#signin{
+    float: left;
+    width: 120px;
+    padding: 15px 0 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border-right: 1px solid #aa0000;
+}
+#signin:hover{
+    box-shadow: inset #ffffff 0 -3px;
+}
+#topmenudiv{
+    float: left;
+    font-weight: bold;
+}
+#topmenudiv ul{
+    margin: 0;
+    padding: 0;
+}
+#topmenudiv li{
+    list-style: none;
+    float: left;
+    padding: 12px 20px 12px 20px;
+    border-right: 1px solid #aa0000;
+}
+#topmenudiv li:hover{
+    box-shadow: inset #ffff00 0 -3px;
+}
+#searchdiv{
+    float: left;
+    padding: 10px 0 0 10px;
+}
+#searchdiv input{
+    height: 20px;
+    width: 202px;
+    border: none;
+    font-size: 14px;
+    padding-left: 10px;
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10% ;
+}
+#midbar{
+    padding: 0 0 5px 0;
+    clear: both;
+    width: 100%;
+    height: 120px;
+    background-color: #aa0000;
+    color: #ffffff;
+}
+#midbar p{
+    padding: 15px 0 0 0 ;
+    margin: 0;
+}
+#newshead{
+    font-size: 4em;
+}
+#ukhead{
+    font-size: 0.7em;
+    padding: 0 0 0 15px;
+}
+#midnav{
+    margin: 0 ;
+    padding: 0;
+}
+#midnav ul{
+    padding:0;
+    list-style: none;
+    background-color: rgba(30,10,10,0.7);
+}
+#midnav li{
+    display: inline-flex;
+    padding:2px 10px 2px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+#midnav li:hover{
+    text-decoration: underline;
+}
+#content{
+    width: 100%;
+    color: #303030;
+    clear: both;
+    font-size: 0.8em;
+
+}
+.date{
+    font-size: 2em;
+    color: #505050;
+    clear: both;
+    margin-bottom: 0;
+    width: 500px;
+}
+.headline{
+    float: left;
+}
+#headlineframe{
+    width: 550px;
+    background-image: url("http://ichef.bbci.co.uk/wwhp/ic/news/624-351/80711000/jpg/_80711027_h5h9d6rm.jpg");
+    background-size: contain;
+    height: 351px;
+    color: #ffffff;
+}
+#headlineframe p{
+    position: relative;
+    top: 90%;
+    font-size: 2em;
+    padding: 5px 0 0 10px;
+    font-weight: bold;
+    background-color: rgba(10,10,10,0.6);
+}
+p.headlinetext {
+    margin: 5px 0 0 0;
+    width: 550px;
+    font-size: 1.2em;
+    color: #303030;
+    font-family: Arial, Helvectica, sans-serif;
+    font-weight: 500;
+}
+#rightheadline{
+    float: left;
+    padding: 0 0 0 30px;
+    position: relative;
+    bottom: 30px;
+}
+p.rightheadtext{
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+p.rightheadlinetext {
+    margin: 5px 0 0 0;
+    width: 450px;
+    font-size: 1.2em;
+    color: #303030;
+    font-family: Arial, Helvectica, sans-serif;
+}
