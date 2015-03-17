@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: none;
+    position: relative;
+    box-shadow: 3px 3px 0 0 #707070;
+}
+#title{
+    font-family: Arial, Helvectica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px #212540;
+    padding: 0;
+    margin: 0 auto;
+}
+#description{
+    font-size: 20px;
+    font-family: Arial, Helvectica, sans-serif;
+}
+#scorearea{
+
+}
+#score{
+    font-family: Arial, Helvectica, sans-serif;
+    margin: 0 0 5px auto;
+}
+#avgscore{
+    font-family: Arial, Helvectica, sans-serif;
+    margin: 0 auto;
+}
+#time{
+    font-family: Arial, Helvectica, sans-serif;
+    margin: 0 0 5px auto;
+}
+#header{
+    margin: 0 0 0 10px;
+}
+#play{
+    box-shadow: 0 0 20px #303030;
+    height: 480px;
+    width: 780px;
+    margin: 0 auto;
+}
