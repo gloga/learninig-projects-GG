@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="title">CodePlayer</h1>
+            <div id="functions">
+                <div class="fun">HTML</div>
+                <div class="fun">CSS</div>
+                <div class="fun">JS</div>
+                <div class="fun">Result</div>
+            </div>
+            <div id="funRun">RUN CODE</div>
+        </div>
+
+        <div class="codeContainer" id="HTMLcontainer">
+            <div class="codeLabel">HTML</div>
+            <textarea name="textHTML" id="textHTML" placeholder="Enter HTML here"></textarea>
+        </div>
+
+        <div class="codeContainer" id="CSScontainer">
+            <div class="codeLabel">CSS</div>
+            <textarea name="textCSS" id="textCSS" placeholder="Enter CSS here"></textarea>
+        </div>
+
+        <div class="codeContainer" id="JScontainer">
+            <div class="codeLabel">JS</div>
+            <textarea name="textJS" id="textJS" placeholder="Comming soon..."></textarea>
+        </div>
+
+        <div class="codeContainer" id="Resultcontainer">
+            <div class="codeLabel">Result</div>
+            <iframe id="resultcode"></iframe>
+        </div>
+    </div>
+<script type="text/javascript" src="JScript.js"></script>
+</body>
+</html>
