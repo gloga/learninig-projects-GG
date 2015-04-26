@@ -1,0 +1,33 @@
+#beerpart{
+    background-image: url("1280-cassava-beer-africa.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+    text-align: center;
+}
+#phone_container{
+    background-image: url("n4_large.png");
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+#phone_content{
+    margin: 0 auto;
+    width: 215px;
+    height: 358px;
+    position: relative;
+    top: 70px;
+    background-color: rgba(255,255,255,0.5);
+}
+.phone_text{
+    font-weight: bold;
+}
+#mail_form{
+    margin: 0 auto;
+    width: 50%;
+}
+.feature_img{
+    font-size: 20px;
+}

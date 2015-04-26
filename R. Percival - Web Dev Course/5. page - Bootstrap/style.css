@@ -1,0 +1,21 @@
+#pic1{
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+}
+#pic2{
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/1/1a/Bachalpseeflowers.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+}
+#pic3{
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/5/57/Galunggung.jpg    ");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+}

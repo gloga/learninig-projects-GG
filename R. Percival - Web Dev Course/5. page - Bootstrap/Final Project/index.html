@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap final project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">
+                    <span class="glyphicon glyphicon-glass"></span>
+                    PickBeer
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group form-group-sm">
+                        <input type="text" class="form-control" placeholder="Username"/>
+                        <input type="password" class="form-control" placeholder="Password"/>
+                    </div>
+                    <button type="submit" class="btn btn-success">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="beerpart">
+        <div id="phone_container">
+            <div id="phone_content">
+                <br/>
+                <h1 class="phone_text">PickBeer</h1>
+                <br/>
+                <h3 class="">A new and easy way to order your beer</h3>
+                <br/>
+                <h4 class="phone_text">Be sophisticated and order with PickBeer</h4>
+            </div>
+        </div>
+        <h4>
+           <strong> Want to try this early, and get on the high-tech beer train first <br/>
+            Subscribe to our newsletter, and be up to date with news from PickBeer </strong>
+        </h4>
+        <br/>
+        <div class="input-group"  id="mail_form">
+            <span class="input-group-addon" id="basic-addon1">@</span>
+            <input id="subscribe_mail" type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+        </div>
+        <br/>
+        <button type="submit" class="btn btn-success btn-lg" data-target="#subscribe_mail">Submit</button>
+    </div>
+    <div class="container-fluid">
+        <h2>What PickBeer can do?</h2>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3><span class="glyphicon glyphicon-list feature_img"> </span> Pick beer from menu</h3>
+                <p>A clean and adaptable view of all beers that are available. Sort it any way that You want.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3><span class="glyphicon glyphicon-random feature_img"> </span> Find beer that suits You</h3>
+                <p>Set the preferred characteristics of a beer that You want, and see what suits You'r needs</p>
+            </div>
+            <div class="col-sm-3">
+                <h3><span class="glyphicon glyphicon-refresh feature_img"> </span> Spin the BeeRoullete!</h3>
+                <p>Feeling lucky, or just want to try something new? Give BeerRollete a whirl. You might find something amazing on the way</p>
+            </div>
+            <div class="col-sm-3">
+                <h3><span class="glyphicon glyphicon-star feature_img"> </span> Rate the beer You tried</h3>
+                <p>Want to act all cool, and knowledgeable like the guys from RateBeer? Now You can, locally on PickBeer</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="container-fluid">
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col-sm-6">Author: Gabriel Glogoški</div>
+                <div class="col-sm-6">Made with: Bootstrap</div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="JSscript.js"></script>
+</body>
+</html>

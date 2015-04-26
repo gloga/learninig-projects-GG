@@ -1,104 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>My homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 <body>
-    <p>Idemo nazad: <a href="index.html" name="top">&#9650</a></p>
-    <div id="container">
-        <div id="sadrzaj">
-            <h1>Welcome to my page</h1>
+<div id="container">
+        <div id="header">
+            <h1>WELCOME TO MY PAGE</h1>
+            <p id="infotext">
+                Hello, there! Click icons on left sidebar to navigate to other pages.
+            </p>
+        </div>
 
-            <div class="prvi">
-                <a href="#about"><p>About me</p></a>
-                <a href="#know"><p>What I know</p></a>
-                <a href="#works"><p>My works</p></a>
-                <a href="#interests"><p>Interests</p></a>
-                <a href="#contact"><p>Contact</p></a>
-                <br> <br/> <br/>
-                <a href="#top"><p>Go up &#9650</p></a>
-            </div>
-
-            <div class="drugi">
-                <div id="about">
-                    <hr/>
-                    <h2>About me</h2>
-                    <hr />
-                    <p> <span class="bitno"> Hello! <br/>
-                        I am Gabriel and, for now, I'm a student on the <a href="http://www.foi.unizg.hr/" target="_blank">Faculty of Organization and Informatics</a>
-                        in Varaždin (a small city in northern Croatia)</span>
-                    </p>
-                    <p>
-                        Right now I om on my 4th year of studies, and a major of my "choice" is <em>Organization of Business Systems</em>.
-                    </p>
-                    <p>
-                        This page was primarily imagined as my <em>portfolio</em> page, to show some of my works, and projects that I was involved during college and some of my personal ones.
-                        Secondarily I'll be using this page as a platform for learning Web development and design. The word <em>choice</em> in previous paragraph is intentionally put between
-                        quotation marks, because that subject is not what is in my main interest area.
-                    </p>
-                    <p>
-                        Currently I'm learning Web development and design via some courses on <a href="https://www.udemy.com" target="_blank">Udemy</a>.
-                        This page will represent my current progess and I hope to make it better and more beautiful as I move on with my courses.
-                    </p>
-                </div>
-
-                <div id="know">
-                    <hr/>
-                    <h2>What I know</h2>
-                    <hr />
-                    <p> <span class="bitno"> Things I learned on college and outside of it are pretty versatile.</span></p>
-                    <p>They include:</p>
-                    <ul>
-                        <li>Organization studies</li>
-                        <li>Programming knowledge</li>
-
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores deleniti, distinctio harum maiores
-                        omnis optio quae quidem voluptas voluptate. Blanditiis cumque dicta expedita illo quae quaerat
-                        repellendus tempora vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur
-                        eos minus quasi tenetur? Aut autem consequuntur, deserunt dolorum eligendi iste minima obcaecati
-                        perferendis quod recusandae reiciendis repudiandae sit ut. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Accusamus aliquam fuga laborum maiores, mollitia natus obcaecati praesentium quia
-                        repellat? Error illum modi non rem saepe. Dignissimos error laudantium nobis numquam? Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit. Consequuntur corporis deserunt eius excepturi exerci
-                        tationem harum illum laudantium, magni maxime nesciunt possimus quibusdam quidem quisquam ratione
-                        similique sit tempore! Nulla, suscipit! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Accusamus aliquam dignissimos eaque id libero odit quae quam, quidem sapiente tempora vero voluptas
-                        voluptates, voluptatum. Dignissimos doloremque ex nesciunt ut velit. Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Esse ex impedit nobis sequi sunt! Assumenda culpa debitis et fugiat
-                        maiores maxime, odit possimus quod ratione. Esse maxime natus nisi tempore.
-                    </p>
-                </div>
-
-                <div id="works">
-                    <hr/>
-                    <h2>My works</h2>
-                    <hr/>
+        <div id="content">
+            <div id="contenttext">
+                <h3 class="title">About me</h3>
+                <p class="maintext">
+                    Hey there. I'm Gabriel. <br/> <br/> For  now, I'm a student on the Faculty of Organization and Informatics in Varaždin
+                    (a small city in northern Croatia).Right now I'm on my 4th year of studies, and my major is Organization of Business Systems.
                     <br/>
-                    <div class="galerija">
-
-                    </div>
-                    <hr/>
-                </div>
-
-                <div id="interests">
-                    <h2>Interests</h2>
-                </div>
-
-                <div id="contact">
-                    <h2>Contact</h2>
-                    <ul>
-                        <li><a href="https://www.facebook.com/glogabmf" target="_blank">Facebook</a></li>
-                        <li><a href="https://www.linkedin.com/profile/view?id=381647126&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></li>
-                        <li><a href="mailto:gglogosk@foi.hr">FOI mail</a></li>
-                        <li><a href="mailto:glogabmf@gmail.com">GMail</a></li>
-
-                    </ul>
-                </div>
+                    This page was primarily imagined as my portfolio page, to show some of my works, and projects that I was involved during college
+                    and some of my personal ones. Secondarily I'll be using this page as a platform for learning Web development and design.
+                    <br/>
+                    Currently I'm learning Web development from a great course hosted on <a href="https://www.udemy.com" target="_blank">Udemy</a>
+                </p>
             </div>
         </div>
-    </div>
+
+        <div id="sidebar">
+            <div class="sidebaritem" id="sideitem1">
+                <img class="sidebarimg" src="home7.png" alt="home"/>
+                <p class="sidetext">Home</p>
+            </div>
+            <div class="sidebaritem" id="sideitem2">
+                <img class="sidebarimg" src="agenda8.png" alt="school"/>
+                <p class="sidetext">Skills</p>
+            </div>
+            <div class="sidebaritem" id="sideitem3">
+                <img class="sidebarimg" src="folder287.png" alt="files"/>
+                <p class="sidetext">Files</p>
+            </div>
+            <div class="sidebaritem" id="sideitem4">
+                <img class="sidebarimg" src="book275.png" alt="gallery"/>
+                <p class="sidetext">Gallery</p>
+            </div>
+            <div class="sidebaritem" id="sideitem5">
+                <img class="sidebarimg" src="mail3.png" alt="contact"/>
+                <p class="sidetext">Contact</p>
+            </div>
+        </div>
+</div>
+<script type="text/javascript" src="JSscript.js"></script>
 </body>
 </html>
