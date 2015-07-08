@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+    background: url("p-o-box1.jpg");
+    color: #fff;
+}
+.container-fluid{
+    background-color: rgba(0,0,0,0.8);
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.lead{
+    font-size: 20px;
+}
+#check{
+    margin: 20px 0 35px 0;
+}
+#alert1,#alert2,#alert3{
+    display: none;
+}

@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    color: #ffffff;
+
+}
+.container-fluid{
+    text-align: center;
+    background-image: url("furniture-dark-wood-table-texture-with-black-wood-texture-black-wood-texture.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.glyphicon-chevron-down{
+    color: #ffffff;
+}
+.center{
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.inpg{
+    width: 60%;
+    margin: 5px 0 5px 20%;
+}
+#jinput{
+    width: 100%;
+    margin-top: 60px;
+}

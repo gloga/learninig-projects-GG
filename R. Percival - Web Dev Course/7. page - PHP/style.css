@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+    color:white;
+}
+.container-fluid{
+    background-image: url(background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    padding-top: 100px;
+}
+.center{
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    height: 400px;
+}
+h1{
+    font-weight: bold;
+}
+.alert{
+    margin-top: 35px;   
+    width: 100%;
+    display: none;
+    color: #505050;
+}

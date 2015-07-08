@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Personal Journal</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 center">
+            <h1>Check Postal Code</h1>
+            <br/>
+            <p class="lead">Enter a desired city address, and find the matching postal code</p>
+
+            <div class="input-group">
+                <span class="input-group-addon">Address</span>
+                <input type="text" id="address" class="form-control" placeholder="Eg. 10 Fake Street, Faketown"/>
+            </div>
+            <input type="submit" class="btn btn-success" id="check" value="Check postal code"/>
+
+            <div class="alert alert-success" id="alert1"></div>
+            <div class="alert alert-danger" id="alert2">Could not find the postal code</div>
+            <div class="alert alert-danger" id="alert3">Could not connect to service. Please try again later</div>
+
+            <div id="map-canvas"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="Jscript.js"></script>
+</body>
+</html>
