@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <style type='text/css'>
+            body { font-family: "Open Sans", sans-serif; color: #444; }
+            h1, h2, h3, h4 { font-family: Yellowtail; font-weight: normal; color: #06a; }
+
+            #wrapper { width: 800px; margin: 0 auto; }
+
+            header { text-align: center; }
+            header h1 { font-size: 46px; text-align: center; margin: 15px 10px; }
+
+            article h1 { font-size: 26px; margin: 0 0 15px; }
+
+            article canvas {
+                width: 800px;
+                height: 300px;
+                border: 1px solid #ccc;
+            }
+
+            pre.source {
+                background: #e5eeee;
+                padding: 10px 20px;
+                width: 760px;
+                overflow-x: auto;
+                border: 1px solid #acc;
+            }
+
+            code { background: #cff; }
+
+            .tools { margin-bottom: 10px; }
+            .tools a {
+                border: 1px solid black; height: 30px; line-height: 30px; padding: 0 10px; vertical-align: middle; text-align: center; text-decoration: none; display: inline-block; color: black; font-weight: bold;
+            }
+        </style>
+        <title>Hello World</title>
+    </head>
+    <body>
+    <div class="tools">
+        <a href="#colors_sketch" data-download="png" style="float: left; width: 100px;">Download</a>
+    </div>
+    <canvas id="colors_sketch" width="800" height="300"></canvas>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/sketch.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $.each(['#f00', '#ff0', '#0f0', '#0ff', '#00f', '#f0f', '#000', '#fff'], function() {
+                $('#colors_demo .tools').append("<a href='#colors_sketch' data-color='" + this + "' style='width: 10px; background: " + this + ";'></a> ");
+            });
+            $.each([3, 5, 10, 15], function() {
+                $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='" + this + "' style='background: #ccc'>" + this + "</a> ");
+            });
+            $('#colors_sketch').sketch();
+        });
+    </script>
+    </body>
+</html>

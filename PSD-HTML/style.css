@@ -1,0 +1,161 @@
+/*
+    Colors:
+    DarkGray: #222222
+    Grey: #333333
+    DarkerGrey: #444444
+    LightGrey: #eeeeee
+    LightBlue: #00c0ff
+    DarkBlue: #0090bf
+
+*/
+html{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+h1, h2, h3{
+    font-weight: 300;
+    margin: 0;
+    line-height: 45px;
+}
+h4, h5, h6{
+    font-weight: bold;
+    margin: 5px 0;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size:24px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+h5{
+    font-size: 13px;
+    margin: 0;
+    text-transform: uppercase;
+}
+p{
+    margin: 0 0 10px 0;
+}
+.lead{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.container{
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+header{
+    background-color: #000;
+}
+#logo{
+    display: block;
+    padding: 17px 0 17px 5px;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+header nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    border-left: 1px solid #333;
+}
+header nav ul li a:hover{
+background-color: #444444;
+}
+header nav ul li a:active{
+    box-shadow: 0 0 5px rgba(0,0,0,0.8) inset;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8) inset;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8) inset;
+    background-color: #444444;
+}
+#hero{
+    background-color: #00c0ff;
+    color: #000;
+}
+#hero-title{
+    width: 520px;
+    padding: 60px 0;
+    float: left;
+}
+#primary-cts{
+    margin: 40px 0;
+}
+.btn{
+    width: auto;
+    background-color: #0090bf;
+    border: 1px solid #1e728c;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: bacground-color 0.15s ease-in-out;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #444444;
+}
+.btn:active{
+    color: #fff;
+    background-color: #12428c;
+}
+.btn-lg{
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: 200;
+}
+.btn-sec, .btn-sec:hover, .btn-sec:active{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+#hero-image{
+    float: right;
+    margin: 10px 0 -30px 0;
+}
+
+
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+
+
